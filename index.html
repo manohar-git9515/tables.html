@@ -1,109 +1,71 @@
-<!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+    
     <style>
-        table,
+        h1,
+        h3 {
+            text-align: center;
+            color: green;
+        }
+
+        table {
+            width: 100%;
+            border: 1px solid #100808;
+            border-collapse: collapse;
+        }
+
         th,
         td {
-            border: 3px solid black;
-            border-collapse: collapse;
-    
+            padding: 10px;
+            border: 2px solid black;
         }
     </style>
-    <table border="1">
-        <tr>
-            <th>movie NAME</th>
-            <th>movie POSTER</th>
-            <th>song-1</th>
-            <th>song-2</th>
-            <th>song-3</th>
-        </tr>
-        <tr>
-           <td>Devara</td>
-        <td><img src="./dev.jpeg" height="200"></td>
-           <td>
-            <video width="300" height="300" controls>
-                <source src="./fear.mp4" >
-            </video>
-           </td>
-           <td>
-            <video width="300" height="300" controls>
-                <source src="./2.mp4">
-            </video>
-           </td>
-           <td>
-            <video width="300" height="300" controls>
-                <source src="./ch.mp4">
-            </video>
-           </td> 
-        </tr>
-        <tr>
-            <td>kadali</td>
-            <td><img src="./kadali.jpeg" height="200"></td>
-            </td>
-            <td>
-                <video width="300" height="300" controls>
-                    <source src="./pac.mp4">
-                </video>
-            </td>
-            <td>
-                <video width="300" height="300" controls>
-                    <source src="./gun.mp4">
-                </video>
-            </td>
-            <td>
-                <video width="300" height="300" controls>
-                    <source src="./elay.mp4">
-                </video>
-            </td>
-        </tr>
-        
-        <tr>
-            <td>orange</td>
-            <td><img src="./org.jpeg" height="200"></td>
-        
-        </td>
-        <td>
-            <video width="300" height="300" controls>
-                <source src="./sydney.mp4">
-            </video>
-        </td>
-        <td>
-            <video width="300" height="300" controls>
-                <source src="./rooba.mp4">
-            </video>
-        </td>
-        <td>
-            <video width="300" height="300" controls>
-                <source src="./nenu.mp4">
-            </video>
-        </td></tr>
-        <tr>
-            <td>guntur karam</td>
-            <td><img src="./gun.jpeg" height="200"></td>
-            
-            </td>
-            <td>
-                <video width="300" height="300" controls>
-                    <source src="./amm.mp4">
-                </video>
-            </td>
-            <td>
-                <video width="300" height="300" controls>
-                    <source src="./ram.mp4">
-                </video>
-            </td>
-            <td>
-                <video width="300" height="300" controls>
-                    <source src="./mawa.mp4">
-                </video>
-            </td>
-        </tr>
+</head>
+
+<body>
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">Name</th>
+                <th>Class</th>
+                <th>School</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Mahima</td>
+                <td rowspan="2">Gupta</td>
+                <td>11</td>
+                <td rowspan="2">MVM School</td>
+            </tr>
+            <tr>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Sri</td>
+                <td rowspan="2">Krishn</td>
+                <td>3</td>
+                <td rowspan="2">LMS School</td>
+            </tr>
+            <tr>
+                <td>B</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Shivika</td>
+                <td rowspan="2">Goyal</td>
+                <td>5</td>
+                <td rowspan="2">SCPM School</td>
+            </tr>
+            <tr>
+                <td>A</td>
+            </tr>
+        </tbody>
     </table>
+
 </body>
+
 </html>
+
+
